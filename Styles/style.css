@@ -248,4 +248,22 @@ header{
 .img-con{
     display: grid;
     grid-template-columns: repeat(5, 1fr);
+    justify-items: center;
+}
+
+/* footer section */
+footer{
+    background-color: #FFF4E7;
+    margin: 0 auto;
+    max-width: 1440px;
+    text-align: center;
+    
+}
+.innerfooter{
+    background-color: #FFF4E7;
+    padding: 50px 410px;
+    margin: 130px 0 200px 0;
+}
+.footerp{
+    font-size: 1.3rem;
 }

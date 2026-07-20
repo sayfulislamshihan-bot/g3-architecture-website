@@ -228,3 +228,24 @@ header{
     font-size: 1.2rem;
     font-weight: 500;
 }
+
+/* Sponsor section */
+.sponsors-container{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.sponsorTop{
+    max-width: 542px;
+    text-align: center;
+    margin: 0 auto;
+}
+.sponsorTop h2{
+    font-size: 2.8rem;
+    font-weight: bold;
+    margin-bottom: 24px;
+}
+.img-con{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}

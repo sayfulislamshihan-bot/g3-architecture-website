@@ -1,0 +1,93 @@
+/* Shared properties */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.work-sans-font{
+  font-family: "Work Sans", sans-serif;
+  font-optical-sizing: auto;
+}
+
+header{
+    background-color: rgba(255, 144, 14, 0.1);
+}
+
+.flex{
+    display: flex;
+}
+
+.dark-1{
+    color: #131313;
+    font-weight: 700;
+}
+
+.dark-2{
+    color: #424242;
+}
+
+.dark-3{
+    color: #727272;
+    font-size: 1rem;
+}
+
+.primary-btn{
+    background-color: #FF900E;
+    color: #FFFFFF;
+    font-size: 1.2rem;
+    padding: 21px 25px;
+    border-radius: 8px;
+    border: none;
+}
+/* Individual properties */
+
+
+/* navbar */
+.navbar{
+    justify-content: space-around;
+    max-width: 1452px;
+    margin: 0 auto;
+    padding: 50px;
+
+}
+.title{
+    font-size: 2.8rem;
+}
+.list li{
+    list-style: none;
+}
+.list a{
+    text-decoration: none;
+}
+.list{
+    justify-content: center;
+    align-items: center;
+    gap:20px;
+}
+
+/* banner section */
+.banner-container{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.banner-content{
+    text-align: center;
+    max-width: 868px;
+    margin: 0 auto;
+}
+.btitle{
+    font-size: 4rem;
+    margin-top: 50px;
+    margin-bottom: 25px;
+}
+.bimage img{
+    width: 100%;
+}
+
+.para1{
+    margin-bottom: 32px;
+}
+
+.btn1{
+    margin-bottom: 50px;
+}

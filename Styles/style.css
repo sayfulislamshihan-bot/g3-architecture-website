@@ -35,6 +35,7 @@ header{
     background-color: #FF900E;
     color: #FFFFFF;
     font-size: 1.2rem;
+    font-weight: bold;
     padding: 21px 25px;
     border-radius: 8px;
     border: none;
@@ -90,4 +91,99 @@ header{
 
 .btn1{
     margin-bottom: 50px;
+    cursor: pointer;
+}
+
+/* Features list */
+.listOfFeatures-container{
+    max-width: 1320px;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+    padding-top: 85px;
+}
+
+.photos{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+    max-width: 710px;
+}
+.photos img{
+    width: 100%;
+}
+.features{
+    max-width: 540px;
+}
+.coloredtitle{
+    font-size: 2.8rem;
+    margin-bottom: 24px;
+}
+.btn2{
+    margin-top: 32px;
+    cursor: pointer;
+}
+
+
+/* features love */
+.featureToEnjoy-container{
+    max-width: 1440px;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    gap: 65px;
+    padding-top: 130px;
+}
+
+.features{
+    max-width: 586px;
+}
+
+.Fhead{
+    font-size: 2.8rem;
+    color: #131313;
+    font-weight: bold;
+    padding-left: 21px;
+    border-left: 5px solid #FF900E;
+    margin-bottom: 24px;
+}
+
+.feature-card{
+    max-width: 586px;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 24px;
+}
+
+.feature h4{
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.feature{
+     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.103);
+     background-color: #FFFFFF;
+     border: none;
+     border-radius: 5px;
+     padding: 30px;
+}
+
+.big-btn{
+    position: relative;
+    top: -120px;
+    left: -50px;
+    padding: 36px 32px;
+    background-color: #FF900E;
+    color: #FFFFFF;
+}
+.btn-image{
+    position:relative;
+
+}
+.B{
+    font-size: 3.5rem;
+}
+.btn-image{
+    width: 100%;
 }
